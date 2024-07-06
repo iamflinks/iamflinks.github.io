@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Femi Olugbon</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="contactForm" autocomplete="true" action="https://formsubmit.co/olugbonfemi@gmail.com" method="POST">
+        <h2>Contact Femi Olugbon</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email Address" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="10" placeholder="How can I be of help?" required></textarea>
+        <button type="submit" , id="submit">Send</button>
+      </form>
+    </div>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../js/contact.js"></script> -->
+  </body>
 </html>
