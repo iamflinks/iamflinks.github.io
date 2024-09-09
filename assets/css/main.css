@@ -1015,7 +1015,6 @@ section,
   opacity: 1;
   bottom: 20px;
 }
-
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
@@ -1503,8 +1502,9 @@ section,
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.portfolio-details .portfolio-description p, ul {
   padding: 0;
+  font-size: 15px;
 }
 
 .portfolio-details .portfolio-description .testimonial-item {
